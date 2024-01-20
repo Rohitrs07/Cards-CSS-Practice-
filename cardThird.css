@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(26, 55, 107, 0.945);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 55%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.leftBox{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(105, 6, 109);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.rightBox{
+    width: 50%;
+    height: 100%;
+    background-image: url("images/hero.jpg");
+    background-size: contain;
+}
+
+.leftBox h2{
+    color: rgb(243, 245, 247);
+}
+
+.leftBox p{
+    color: rgb(206, 213, 219);
+}
+
+.statBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 65px;
+}
